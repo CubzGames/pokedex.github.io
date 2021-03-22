@@ -34,9 +34,6 @@ async function searchPokemon() {
         document.getElementById('move3').innerHTML = data.moves[2].move.name;
         document.getElementById('move4').innerHTML = data.moves[3].move.name;
 
-        //Welke error? I never had an error
-
-        // alleen die weight en die height nog voor de rest moete we die error vinde waarom da bij sommige paginas ni laad 
     }).catch(err => { 
         alert('No pokemon found with this name!')
         console.log(err)
